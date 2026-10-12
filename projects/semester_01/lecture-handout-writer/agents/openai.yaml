@@ -1,4 +1,0 @@
-interface:
-  display_name: "讲义编写与 PDF 生成"
-  short_description: "从教学设计、章节写作和习题核验，到审稿归档与可选 PDF 输出"
-  default_prompt: "使用 $lecture-handout-writer 编写符合课程进度的讲义，先完成教学定位与 UbD 设计。"
