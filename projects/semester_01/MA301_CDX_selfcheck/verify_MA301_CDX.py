@@ -147,7 +147,7 @@ import re,hashlib
 root=Path.cwd()
 doc=root/'professors'/'MATH'/'handout_MA301_CDX'
 # Resolve by content status, independent of localized file name.
-candidates=[p for p in doc.glob('*.md') if 'v0.1-selfchecked' in p.read_text(encoding='utf-8')]
+candidates=[p for p in doc.glob('*.md') if p.read_text(encoding='utf-8').startswith('# \u6982\u7387\u8bba MA301') and 'v0.1-selfchecked' in p.read_text(encoding='utf-8')]
 assert len(candidates)==1
 text=candidates[0].read_text(encoding='utf-8')
 assert '$$' not in text and '\ufffd' not in text
