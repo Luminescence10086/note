@@ -1,0 +1,2677 @@
+{
+  "status": "PASS",
+  "count": 446,
+  "results": [
+    {
+      "check": "G1 committee",
+      "actual": "7/10",
+      "expected": "7/10",
+      "tolerance": 0
+    },
+    {
+      "check": "I1 intersection bounds",
+      "actual": "both endpoints realized by nonnegative four-cell tables"
+    },
+    {
+      "check": "L1 dice example",
+      "actual": "1/6",
+      "expected": "1/6",
+      "tolerance": 0
+    },
+    {
+      "check": "L2 Bayes example",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "G2 Bayes",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "2/9",
+      "expected": "2/9",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "2/3",
+      "expected": "2/3",
+      "tolerance": 0
+    },
+    {
+      "check": "I2 complement independence",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "G3 left limit",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "G3 at zero",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0
+    },
+    {
+      "check": "G3 at one",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "G4 geometric tail",
+      "actual": "27/64",
+      "expected": "27/64",
+      "tolerance": 0
+    },
+    {
+      "check": "G5 exponential conditional tail",
+      "actual": "0.01831563888873418",
+      "expected": "0.01831563888873418",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "I5 density normalization",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "I5 probability",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "G6 mean",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "G6 variance",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "I6 shifted Poisson square",
+      "actual": "19.0",
+      "expected": "19",
+      "tolerance": 1e-11
+    },
+    {
+      "check": "G7 sufficient sample bound",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0
+    },
+    {
+      "check": "I7 Markov equality",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0
+    },
+    {
+      "check": "G8 convolution",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "G8 convolution",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "G8 convolution",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "I8/G9 condition0",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "I8/G9 condition1",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0
+    },
+    {
+      "check": "G9 covariance",
+      "actual": "1/8",
+      "expected": "1/8",
+      "tolerance": 0
+    },
+    {
+      "check": "G9 correlation",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "I9 total variance",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "L9 projection cross term",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "G10 random sum mean",
+      "actual": "6.000000000000001",
+      "expected": "6",
+      "tolerance": 1e-11
+    },
+    {
+      "check": "G10 random sum variance",
+      "actual": "18.000000000000004",
+      "expected": "18",
+      "tolerance": 1e-10
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "1/32",
+      "expected": "1/32",
+      "tolerance": 0
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "5/32",
+      "expected": "5/32",
+      "tolerance": 0
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "5/16",
+      "expected": "5/16",
+      "tolerance": 0
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "5/16",
+      "expected": "5/16",
+      "tolerance": 0
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "5/32",
+      "expected": "5/32",
+      "tolerance": 0
+    },
+    {
+      "check": "I10 binomial sum",
+      "actual": "1/32",
+      "expected": "1/32",
+      "tolerance": 0
+    },
+    {
+      "check": "G11 Chebyshev sample size",
+      "actual": "1/20",
+      "expected": "1/20",
+      "tolerance": 0
+    },
+    {
+      "check": "G12 standardization n=9 mean=3",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "I12 incorrectly scaled variance n=9",
+      "actual": "1/9",
+      "expected": "1/9",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 h2",
+      "actual": "2/5",
+      "expected": "2/5",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 e2",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0
+    },
+    {
+      "check": "G13 h4",
+      "actual": "4/5",
+      "expected": "4/5",
+      "tolerance": 0
+    },
+    {
+      "check": "G13 e4",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0
+    },
+    {
+      "check": "T3.1 probability",
+      "actual": "3/10",
+      "expected": "3/10",
+      "tolerance": 0
+    },
+    {
+      "check": "T3.1 duration",
+      "actual": "21",
+      "expected": "21",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "729/2059",
+      "expected": "729/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "1215/2059",
+      "expected": "1215/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "1539/2059",
+      "expected": "1539/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "1755/2059",
+      "expected": "1755/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "1899/2059",
+      "expected": "1899/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 biased ruin formula",
+      "actual": "1995/2059",
+      "expected": "1995/2059",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "5",
+      "expected": "5",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "5",
+      "expected": "5",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "15",
+      "expected": "15",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "7",
+      "expected": "7",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "21",
+      "expected": "21",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "7",
+      "expected": "7",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "21",
+      "expected": "21",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "7",
+      "expected": "7",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "7",
+      "expected": "7",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "8",
+      "expected": "8",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "28",
+      "expected": "28",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "56",
+      "expected": "56",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "8",
+      "expected": "8",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "28",
+      "expected": "28",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "8",
+      "expected": "8",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "28",
+      "expected": "28",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "8",
+      "expected": "8",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "8",
+      "expected": "8",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "L13 reflection enumeration",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "G14 mean waiting",
+      "actual": "0.33333333334548315",
+      "expected": "0.3333333333333333",
+      "tolerance": 1e-08
+    },
+    {
+      "check": "G14 tail",
+      "actual": "0.0024787521766663585",
+      "expected": "0.0024787521766663585",
+      "tolerance": 0
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.1353352832366127",
+      "expected": "0.13533528323661267",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.20300292485491905",
+      "expected": "0.20300292485491903",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.1522521936411893",
+      "expected": "0.15225219364118925",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.07612609682059465",
+      "expected": "0.07612609682059462",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.028547286307722994",
+      "expected": "0.028547286307722988",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.06766764161830635",
+      "expected": "0.06766764161830634",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.10150146242745953",
+      "expected": "0.10150146242745951",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.07612609682059465",
+      "expected": "0.07612609682059462",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.038063048410297326",
+      "expected": "0.03806304841029731",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.014273643153861497",
+      "expected": "0.014273643153861494",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.016916910404576588",
+      "expected": "0.016916910404576584",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.02537536560686488",
+      "expected": "0.025375365606864878",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.019031524205148663",
+      "expected": "0.019031524205148656",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.009515762102574331",
+      "expected": "0.009515762102574328",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0035684107884653743",
+      "expected": "0.0035684107884653734",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0028194850674294314",
+      "expected": "0.002819485067429431",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.004229227601144147",
+      "expected": "0.004229227601144147",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.00317192070085811",
+      "expected": "0.0031719207008581098",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.001585960350429055",
+      "expected": "0.0015859603504290549",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0005947351314108956",
+      "expected": "0.0005947351314108956",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.00035243563342867893",
+      "expected": "0.0003524356334286789",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0005286534501430184",
+      "expected": "0.0005286534501430184",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0003964900876072638",
+      "expected": "0.0003964900876072637",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "0.0001982450438036319",
+      "expected": "0.00019824504380363186",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 thinning independence",
+      "actual": "7.434189142636195e-05",
+      "expected": "7.434189142636195e-05",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "L14 conditional thinning covariance",
+      "actual": "-3/4",
+      "expected": "-3/4",
+      "tolerance": 0
+    },
+    {
+      "check": "L15/G15/T3 branch fixed point",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0
+    },
+    {
+      "check": "L15/G15/T3 branch fixed point",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "L15/G15/T3 branch fixed point",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "I15 deterministic branching minimal point",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "G16 minimum exponentials",
+      "actual": "0.014995576820477708",
+      "expected": "0.014995576820477717",
+      "tolerance": 1e-14
+    },
+    {
+      "check": "I16 median density integral",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "I16 median mean",
+      "actual": "0.5",
+      "expected": "0.5",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "L16 maximum mean",
+      "actual": "0.6666666666666666",
+      "expected": "0.6666666666666666",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "G17 integral mean",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0
+    },
+    {
+      "check": "G17 variance",
+      "actual": "4/45",
+      "expected": "4/45",
+      "tolerance": 0
+    },
+    {
+      "check": "I17 rejection mean attempts",
+      "actual": "2.0",
+      "expected": "2",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "G18 binary mutual information",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "G18 binary mutual information",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 0
+    },
+    {
+      "check": "G18 binary mutual information",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 0
+    },
+    {
+      "check": "I18 mixed Poisson mean",
+      "actual": "1.9999999999999996",
+      "expected": "2",
+      "tolerance": 1e-11
+    },
+    {
+      "check": "I18 mixed Poisson variance",
+      "actual": "4.999999999999999",
+      "expected": "5",
+      "tolerance": 1e-10
+    },
+    {
+      "check": "T1.1 P(A)",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0
+    },
+    {
+      "check": "T1.1 conditional",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0
+    },
+    {
+      "check": "T1.2 hypergeom",
+      "actual": "7/15",
+      "expected": "7/15",
+      "tolerance": 0
+    },
+    {
+      "check": "T1.3 density integral",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "T1.3 density at half",
+      "actual": "0.75",
+      "expected": "0.75",
+      "tolerance": 0
+    },
+    {
+      "check": "T2.1 variance",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0
+    },
+    {
+      "check": "L5 Gaussian normalization",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "L6 Gaussian variance",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 1e-11
+    },
+    {
+      "check": "L8 triangular convolution integral",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "L6 hypergeom mean",
+      "actual": "3/5",
+      "expected": "3/5",
+      "tolerance": 0
+    },
+    {
+      "check": "L6 hypergeom variance",
+      "actual": "28/75",
+      "expected": "28/75",
+      "tolerance": 0
+    },
+    {
+      "check": "L6 hypergeom mean",
+      "actual": "4/5",
+      "expected": "4/5",
+      "tolerance": 0
+    },
+    {
+      "check": "L6 hypergeom variance",
+      "actual": "9/25",
+      "expected": "9/25",
+      "tolerance": 0
+    },
+    {
+      "check": "L6 hypergeom mean",
+      "actual": "35/12",
+      "expected": "35/12",
+      "tolerance": 0
+    },
+    {
+      "check": "L6 hypergeom variance",
+      "actual": "1225/1584",
+      "expected": "1225/1584",
+      "tolerance": 0
+    },
+    {
+      "check": "Hoeffding bounded Bernoulli numerical spotchecks",
+      "actual": "15 parameter pairs passed; proof remains analytic"
+    },
+    {
+      "check": "DML local approximation samples n=100,1000,10000",
+      "actual": "[0.011628847889426308, 0.004130623070130235, 0.0013418871210820749]",
+      "note": "finite numerical evidence only"
+    },
+    {
+      "check": "L17 inverse exponentials F(1)",
+      "actual": "0.8646647167633873",
+      "expected": "0.8646647167633873",
+      "tolerance": 0
+    },
+    {
+      "check": "L17 rejection acceptance",
+      "actual": "0.5",
+      "expected": "0.5",
+      "tolerance": 1e-12
+    },
+    {
+      "check": "L17 accepted first moment",
+      "actual": "0.6666666666666666",
+      "expected": "0.6666666666666666",
+      "tolerance": 1e-12
+    }
+  ]
+}
