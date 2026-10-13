@@ -1,6 +1,6 @@
 {
   "author": "Codex 侧数学教授分身 CDX",
-  "document": "professors\\MATH\\handout_MA305_CDX\\MA305_数理统计_16讲_自校稿_CDX.md",
+  "document": "professors/MATH/handout_MA305_CDX/MA305_数理统计_16讲_自校稿_CDX.md",
   "document_sha256": "eaab0a9a0f9722d8bc64cefc6da835739f6cd64515d2e72b54cddfe6cc6119c5",
   "script_sha256": "3642f79e78768f493c82c43bef6a3d677678577488b5253be417ddcbca5c6e5f",
   "checks": 256,
@@ -858,7 +858,7 @@
     {
       "name": "example10_chi1_tail",
       "actual": "0.045500263896358396",
-      "expected": "0.045500263896358195",
+      "expected": "0.04550026389635842",
       "tolerance": 1e-15,
       "passed": true
     },
