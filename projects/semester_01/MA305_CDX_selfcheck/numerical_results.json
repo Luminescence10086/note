@@ -1,0 +1,1804 @@
+{
+  "author": "Codex 侧数学教授分身 CDX",
+  "document": "professors\\MATH\\handout_MA305_CDX\\MA305_数理统计_16讲_自校稿_CDX.md",
+  "document_sha256": "eaab0a9a0f9722d8bc64cefc6da835739f6cd64515d2e72b54cddfe6cc6119c5",
+  "script_sha256": "3642f79e78768f493c82c43bef6a3d677678577488b5253be417ddcbca5c6e5f",
+  "checks": 256,
+  "passed": 256,
+  "failed": [],
+  "limitations": "Finite enumerations and quadratures are author evidence, not proofs of general theorems or student project completion.",
+  "results": [
+    {
+      "name": "example1_mean",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example1_S2",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example1_ML_variance",
+      "actual": "2/3",
+      "expected": "2/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G1_EDF_1.5",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G1_EDF_2",
+      "actual": "2/3",
+      "expected": "2/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G1_EDF_4",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G2_F_scaling",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example2_df",
+      "actual": "5",
+      "expected": "5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example3_Exp_MLE",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G3_Bern_MLE",
+      "actual": "3/5",
+      "expected": "3/5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I3_uniform_MOM",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I3_uniform_MLE",
+      "actual": "3",
+      "expected": "3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G4_MSE",
+      "actual": "13/100",
+      "expected": "13/100",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n2_p1/5",
+      "actual": "3/20",
+      "expected": "3/20",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n2_p1/5",
+      "actual": "1/50",
+      "expected": "1/50",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n2_p1/2",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n2_p1/2",
+      "actual": "1/32",
+      "expected": "1/32",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n2_p4/5",
+      "actual": "-3/20",
+      "expected": "-3/20",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n2_p4/5",
+      "actual": "1/50",
+      "expected": "1/50",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_MSE_n2",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_less_n2",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n3_p1/5",
+      "actual": "3/25",
+      "expected": "3/25",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n3_p1/5",
+      "actual": "12/625",
+      "expected": "12/625",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n3_p1/2",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n3_p1/2",
+      "actual": "3/100",
+      "expected": "3/100",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n3_p4/5",
+      "actual": "-3/25",
+      "expected": "-3/25",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n3_p4/5",
+      "actual": "12/625",
+      "expected": "12/625",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_MSE_n3",
+      "actual": "5/9",
+      "expected": "5/9",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_less_n3",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n5_p1/5",
+      "actual": "3/35",
+      "expected": "3/35",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n5_p1/5",
+      "actual": "4/245",
+      "expected": "4/245",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n5_p1/2",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n5_p1/2",
+      "actual": "5/196",
+      "expected": "5/196",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n5_p4/5",
+      "actual": "-3/35",
+      "expected": "-3/35",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n5_p4/5",
+      "actual": "4/245",
+      "expected": "4/245",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_MSE_n5",
+      "actual": "9/25",
+      "expected": "9/25",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_less_n5",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n10_p1/5",
+      "actual": "1/20",
+      "expected": "1/20",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n10_p1/5",
+      "actual": "1/90",
+      "expected": "1/90",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n10_p1/2",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n10_p1/2",
+      "actual": "5/288",
+      "expected": "5/288",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_bias_n10_p4/5",
+      "actual": "-1/20",
+      "expected": "-1/20",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I4_var_n10_p4/5",
+      "actual": "1/90",
+      "expected": "1/90",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_MSE_n10",
+      "actual": "19/100",
+      "expected": "19/100",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.2_ML_less_n10",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture4_S2_unbiased_nonNormal_n2",
+      "actual": "14/9",
+      "expected": "14/9",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture4_S2_unbiased_nonNormal_n3",
+      "actual": "14/9",
+      "expected": "14/9",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture4_S2_unbiased_nonNormal_n4",
+      "actual": "14/9",
+      "expected": "14/9",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n2_sum0",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n2_sum1",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n2_sum2",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n4_sum0",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n4_sum1",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n4_sum2",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n4_sum3",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I5_RaoBlackwell_n4_sum4",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_score_mean_p1/5",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_info_p1/5",
+      "actual": "25/4",
+      "expected": "25/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_score_mean_p1/2",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_info_p1/2",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_score_mean_p4/5",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "CR_Bern_info_p4/5",
+      "actual": "25/4",
+      "expected": "25/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_score_mean_0.5",
+      "actual": "5.8158404766984715e-18",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_info_0.5",
+      "actual": "2.0",
+      "expected": "2.0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_score_mean_2.0",
+      "actual": "1.1458644222741884e-17",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_info_2.0",
+      "actual": "0.5000000000000001",
+      "expected": "0.5",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_score_mean_7.0",
+      "actual": "-3.505944224545182e-18",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G6_Pois_info_7.0",
+      "actual": "0.14285714285714288",
+      "expected": "0.14285714285714285",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Uniform_CR_counterexample_var",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "chi2_df1_moment0",
+      "actual": "0.9999999999999999",
+      "expected": "1",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df1_moment1",
+      "actual": "0.9999999999999999",
+      "expected": "1",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df1_moment2",
+      "actual": "3.0",
+      "expected": "3",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df2_moment0",
+      "actual": "1.0000000000000409",
+      "expected": "1",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df2_moment1",
+      "actual": "1.9999999999999187",
+      "expected": "2",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df2_moment2",
+      "actual": "8.0",
+      "expected": "8",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df5_moment0",
+      "actual": "0.9999999999999997",
+      "expected": "1",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df5_moment1",
+      "actual": "4.999999999999999",
+      "expected": "5",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df5_moment2",
+      "actual": "34.99999999999999",
+      "expected": "35",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df10_moment0",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df10_moment1",
+      "actual": "10.0",
+      "expected": "10",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "chi2_df10_moment2",
+      "actual": "120.00000000000001",
+      "expected": "120",
+      "tolerance": 2e-07,
+      "passed": true
+    },
+    {
+      "name": "t_df1_normalization",
+      "actual": "1.0000000000000002",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "t_df2_normalization",
+      "actual": "1.0000000000000002",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "t_df5_normalization",
+      "actual": "0.9999999999999998",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "t_df5_variance",
+      "actual": "1.6666666666666663",
+      "expected": "1.6666666666666667",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "t_df9_normalization",
+      "actual": "1.0000000000000002",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "t_df9_variance",
+      "actual": "1.285714285714286",
+      "expected": "1.2857142857142858",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_1_1_normalization",
+      "actual": "1.0000000000000002",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_4_7_normalization",
+      "actual": "0.9999999999999998",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_4_7_mean",
+      "actual": "1.4000000000000001",
+      "expected": "1.4",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_1_5_normalization",
+      "actual": "0.9999999999999998",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_1_5_mean",
+      "actual": "1.6666666666666663",
+      "expected": "1.6666666666666667",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_3_8_normalization",
+      "actual": "1.0",
+      "expected": "1",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "F_3_8_mean",
+      "actual": "1.3333333333333333",
+      "expected": "1.3333333333333333",
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "example7_known_sigma_SE",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G7_SE_squared",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I7_length_ratio",
+      "actual": "0.5",
+      "expected": "0.5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "normal_95_quantile",
+      "actual": "1.9599639845400674",
+      "expected": "1.95996398454",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k0_q0.000000",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k0_q0.277533",
+      "actual": "2.220446049250313e-16",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k3_q0.107791",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k3_q0.603222",
+      "actual": "3.3306690738754696e-16",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k10_q0.722467",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n10_k10_q1.000000",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n100_k40_q0.309401",
+      "actual": "-7.771561172376096e-16",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "Wilson_boundary_n100_k40_q0.497997",
+      "actual": "0.0",
+      "expected": "0",
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "example8_basic_level",
+      "actual": "1/4",
+      "expected": "1/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example8_basic_power",
+      "actual": "9/16",
+      "expected": "9/16",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example8_rand_level",
+      "actual": "1/10",
+      "expected": "1/10",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example8_rand_power",
+      "actual": "9/40",
+      "expected": "9/40",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example8_rand_best_on_grid",
+      "actual": "9/40",
+      "expected": "9/40",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G8_level",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G8_power",
+      "actual": "15/16",
+      "expected": "15/16",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T2.3_level",
+      "actual": "1/2",
+      "expected": "1/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T2.3_power",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T2.3_best_on_grid",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example9_Pearson",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G9_pooled",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G9_t_squared",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G9_df",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example10_GLR",
+      "actual": "4.0",
+      "expected": "4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example10_chi1_tail",
+      "actual": "0.045500263896358396",
+      "expected": "0.045500263896358195",
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "G10_unknown_GLR",
+      "actual": "3.6772478012531735",
+      "expected": "3.6772478012531735",
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "G10_t9_p_two_tail",
+      "actual": "0.07655282377070227",
+      "expected": "0.07655282377",
+      "tolerance": 2e-10,
+      "passed": true
+    },
+    {
+      "name": "example11_beta",
+      "actual": "[Fraction(7, 3), Fraction(3, 2)]",
+      "expected": "[Fraction(7, 3), Fraction(3, 2)]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example11_fitted",
+      "actual": "[Fraction(5, 6), Fraction(7, 3), Fraction(23, 6)]",
+      "expected": "[Fraction(5, 6), Fraction(7, 3), Fraction(23, 6)]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example11_residual",
+      "actual": "[Fraction(1, 6), Fraction(-1, 3), Fraction(1, 6)]",
+      "expected": "[Fraction(1, 6), Fraction(-1, 3), Fraction(1, 6)]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example11_RSS",
+      "actual": "1/6",
+      "expected": "1/6",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "hat_symmetric",
+      "actual": "[[Fraction(5, 6), Fraction(1, 3), Fraction(-1, 6)], [Fraction(1, 3), Fraction(1, 3), Fraction(1, 3)], [Fraction(-1, 6), Fraction(1, 3), Fraction(5, 6)]]",
+      "expected": "[[Fraction(5, 6), Fraction(1, 3), Fraction(-1, 6)], [Fraction(1, 3), Fraction(1, 3), Fraction(1, 3)], [Fraction(-1, 6), Fraction(1, 3), Fraction(5, 6)]]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "hat_idempotent",
+      "actual": "[[Fraction(5, 6), Fraction(1, 3), Fraction(-1, 6)], [Fraction(1, 3), Fraction(1, 3), Fraction(1, 3)], [Fraction(-1, 6), Fraction(1, 3), Fraction(5, 6)]]",
+      "expected": "[[Fraction(5, 6), Fraction(1, 3), Fraction(-1, 6)], [Fraction(1, 3), Fraction(1, 3), Fraction(1, 3)], [Fraction(-1, 6), Fraction(1, 3), Fraction(5, 6)]]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "hat_trace",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "residual_orthogonal",
+      "actual": "[Fraction(0, 1), Fraction(0, 1)]",
+      "expected": "[Fraction(0, 1), Fraction(0, 1)]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "projection_cross_cov",
+      "actual": "[[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]]",
+      "expected": "[[Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1), Fraction(0, 1)]]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "GaussMarkov_CDzero",
+      "actual": "[[Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1)]]",
+      "expected": "[[Fraction(0, 1), Fraction(0, 1)], [Fraction(0, 1), Fraction(0, 1)]]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "GaussMarkov_cov_increment",
+      "actual": "[[Fraction(6, 1), Fraction(12, 1)], [Fraction(12, 1), Fraction(24, 1)]]",
+      "expected": "[[Fraction(6, 1), Fraction(12, 1)], [Fraction(12, 1), Fraction(24, 1)]]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "GaussMarkov_nonnegative_[Fraction(1, 1), Fraction(0, 1)]",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "GaussMarkov_nonnegative_[Fraction(0, 1), Fraction(1, 1)]",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "GaussMarkov_nonnegative_[Fraction(1, 1), Fraction(-1, 1)]",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture12_restricted_RSS_difference",
+      "actual": "9/2",
+      "expected": "9/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture12_F_equals_t_squared",
+      "actual": "27",
+      "expected": "27",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G11_intercept_mean",
+      "actual": "7/3",
+      "expected": "7/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G12_intercept_s2",
+      "actual": "7/3",
+      "expected": "7/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example12_ANOVA",
+      "actual": "(Fraction(4, 1), Fraction(4, 1), Fraction(2, 1))",
+      "expected": "(Fraction(4, 1), Fraction(4, 1), Fraction(2, 1))",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T3.3_ANOVA",
+      "actual": "(Fraction(16, 1), Fraction(6, 1), Fraction(4, 1))",
+      "expected": "(Fraction(16, 1), Fraction(6, 1), Fraction(4, 1))",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example13_mean_by_integral",
+      "actual": "0.6250000000000004",
+      "expected": "0.625",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "example13_mode_stationarity",
+      "actual": "8.881784197001252e-16",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "T3.2_flat_mean_by_integral",
+      "actual": "0.7500000000000024",
+      "expected": "0.75",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T3.2_flat_mode_stationarity",
+      "actual": "-1.7763568394002505e-15",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "T3.2_concentrated_mean_by_integral",
+      "actual": "0.6499999999999999",
+      "expected": "0.65",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T3.2_concentrated_mode_stationarity",
+      "actual": "3.552713678800501e-15",
+      "expected": "0",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "example13_mean",
+      "actual": "5/8",
+      "expected": "5/8",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example13_MAP",
+      "actual": "2/3",
+      "expected": "2/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G13_gamma_posterior_mean",
+      "actual": "1.4",
+      "expected": "1.4",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "I13_normal_v",
+      "actual": "0.2",
+      "expected": "0.2",
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "I13_normal_m",
+      "actual": "1.6",
+      "expected": "1.6",
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "I13_predictive_variance",
+      "actual": "1.2",
+      "expected": "1.2",
+      "tolerance": 1e-15,
+      "passed": true
+    },
+    {
+      "name": "lecture14_excess_square_loss",
+      "actual": "1/576",
+      "expected": "1/576",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G14_mean",
+      "actual": "5/2",
+      "expected": "5/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G14_absolute_best",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I14_positive_risk",
+      "actual": "9/5",
+      "expected": "9/5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I14_negative_risk",
+      "actual": "4/5",
+      "expected": "4/5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example15_boot_mean",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example15_boot_var",
+      "actual": "2/9",
+      "expected": "2/9",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "bootstrap_max_atom_n2",
+      "actual": "3/4",
+      "expected": "3/4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "bootstrap_max_atom_n3",
+      "actual": "19/27",
+      "expected": "19/27",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "bootstrap_max_atom_n5",
+      "actual": "2101/3125",
+      "expected": "2101/3125",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example15_perm_stats",
+      "actual": "[Fraction(2, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)]",
+      "expected": "[Fraction(2, 1), Fraction(1, 1), Fraction(0, 1), Fraction(0, 1), Fraction(1, 1), Fraction(2, 1)]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example15_perm_p",
+      "actual": "1/3",
+      "expected": "1/3",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "G15_basic_interval",
+      "actual": "(2, 7)",
+      "expected": "(2, 7)",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example16_AIC_A",
+      "actual": "204",
+      "expected": "204",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example16_AIC_B",
+      "actual": "204",
+      "expected": "204",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example16_BIC_difference",
+      "actual": "7.815510557964302",
+      "expected": "7.815510557964275",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "G16_AIC_diff",
+      "actual": "6",
+      "expected": "6",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "example16_exposure_rate",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture16_train_trace",
+      "actual": "1",
+      "expected": "1",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "lecture16_new_trace",
+      "actual": "5",
+      "expected": "5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_mean_n1",
+      "actual": "0.49999999999999994",
+      "expected": "0.5",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_var_n1",
+      "actual": "0.08333333333333337",
+      "expected": "0.08333333333333333",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_MSE_n1",
+      "actual": "0.3333333333333335",
+      "expected": "0.3333333333333333",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_mean_n2",
+      "actual": "0.6666666666666666",
+      "expected": "0.6666666666666666",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_var_n2",
+      "actual": "0.055555555555555525",
+      "expected": "0.05555555555555555",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_MSE_n2",
+      "actual": "0.16666666666666674",
+      "expected": "0.16666666666666666",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_mean_n5",
+      "actual": "0.8333333333333331",
+      "expected": "0.8333333333333334",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_var_n5",
+      "actual": "0.019841269841270104",
+      "expected": "0.01984126984126984",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_MSE_n5",
+      "actual": "0.047619047619047894",
+      "expected": "0.047619047619047616",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_mean_n10",
+      "actual": "0.9090909090909106",
+      "expected": "0.9090909090909091",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_max_var_n10",
+      "actual": "0.006887052341597255",
+      "expected": "0.006887052341597796",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.1_MSE_n10",
+      "actual": "0.015151515151514361",
+      "expected": "0.015151515151515152",
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "T1.3_mean",
+      "actual": "5/2",
+      "expected": "5/2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.3_RSS",
+      "actual": "5",
+      "expected": "5",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T1.3_mean_SE_squared",
+      "actual": "5/12",
+      "expected": "5/12",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "T2.4_Pearson",
+      "actual": "4",
+      "expected": "4",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "I13_posterior_mean_integrated",
+      "actual": "1.6000000000000003",
+      "expected": "1.6",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "I13_posterior_variance_integrated",
+      "actual": "0.19999999999999998",
+      "expected": "0.2",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "I13_predictive_variance_integrated",
+      "actual": "1.2",
+      "expected": "1.2",
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "mean_t_CI_coverage_via_density_df2",
+      "actual": "0.9500000000000006",
+      "expected": "0.95",
+      "tolerance": 5e-10,
+      "passed": true
+    },
+    {
+      "name": "mean_t_CI_coverage_via_density_df3",
+      "actual": "0.9500000000000044",
+      "expected": "0.95",
+      "tolerance": 5e-10,
+      "passed": true
+    },
+    {
+      "name": "mean_t_CI_coverage_via_density_df9",
+      "actual": "0.9499999999999915",
+      "expected": "0.95",
+      "tolerance": 5e-10,
+      "passed": true
+    },
+    {
+      "name": "permutation_superuniform_1/10",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "permutation_superuniform_1/3",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "permutation_superuniform_1/2",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "permutation_superuniform_2/3",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "permutation_superuniform_9/10",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_16_lectures",
+      "actual": "16",
+      "expected": "16",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_16_mermaid",
+      "actual": "16",
+      "expected": "16",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_fence_pairing",
+      "actual": "0",
+      "expected": "0",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_no_double_dollars",
+      "actual": "False",
+      "expected": "False",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_dollars_paired_per_line",
+      "actual": "[]",
+      "expected": "[]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_sum_bounds",
+      "actual": "[]",
+      "expected": "[]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_no_replacement_character",
+      "actual": "False",
+      "expected": "False",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_final_newline",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_headers_separated",
+      "actual": "[]",
+      "expected": "[]",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_16_guided_hints",
+      "actual": "16",
+      "expected": "16",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G1",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I1",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G2",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I2",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G3",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I3",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G4",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I4",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G5",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I5",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G6",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I6",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G7",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I7",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G8",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I8",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G9",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I9",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G10",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I10",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G11",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I11",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G12",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I12",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G13",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I13",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G14",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I14",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G15",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I15",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_G16",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_I16",
+      "actual": "True",
+      "expected": "True",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T1.1_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T1.2_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T1.3_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T1.4_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T2.1_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T2.2_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T2.3_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T2.4_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T3.1_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T3.2_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "format_T3.3_question_answer",
+      "actual": "2",
+      "expected": "2",
+      "tolerance": 0,
+      "passed": true
+    }
+  ]
+}
