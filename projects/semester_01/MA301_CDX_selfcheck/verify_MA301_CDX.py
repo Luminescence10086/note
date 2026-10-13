@@ -142,3 +142,19 @@ check('L17 rejection acceptance',integrate(lambda y:y,0,1),.5,1e-12)
 check('L17 accepted first moment',integrate(lambda y:y*y,0,1)/.5,2/3,1e-12)
 Path(__file__).with_name('numerical_results.json').write_text(json.dumps({'status':'PASS','count':len(results),'results':results},ensure_ascii=False,indent=2),encoding='utf-8')
 print('PASS',len(results),'checks. Exact rational enumeration + deterministic quadrature; no project simulations run.')
+# Check the actual submission version after all edits.
+import re,hashlib
+root=Path.cwd()
+doc=root/'professors'/'MATH'/'handout_MA301_CDX'
+# Resolve by content status, independent of localized file name.
+candidates=[p for p in doc.glob('*.md') if 'v0.1-selfchecked' in p.read_text(encoding='utf-8')]
+assert len(candidates)==1
+text=candidates[0].read_text(encoding='utf-8')
+assert '$$' not in text and '\ufffd' not in text
+assert all(line.count('$')%2==0 for line in text.splitlines())
+assert len(re.findall(r'^## \u7b2c \d+ ',text,re.M))==18
+assert text.count('```mermaid')==18 and text.count('```')==36
+for m in re.finditer(r'\\sum',text):assert re.match(r'\\sum_\{[^}]+\}\^\{[^}]+\}',text[m.start():])
+assert '\\\\' not in text  # No unintended doubled LaTeX escapes; no matrices in this handout.
+print('Submission UTF-8/math delimiters/sum bounds/18 lectures/18 diagrams: PASS')
+print('Submission SHA256',hashlib.sha256(candidates[0].read_bytes()).hexdigest())
