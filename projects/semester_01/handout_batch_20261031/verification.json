@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-31",
+  "status": "PASS",
+  "draft_chapters": 14,
+  "pending_chapters": 42,
+  "new_chapters": 6,
+  "closed_local_proof_gaps": [
+    "MA306 U306-2",
+    "MA306 U306-3"
+  ],
+  "boundary": "Author and collaborative prose review only, not DSH approval or student completion",
+  "exact_checks": "integer submodule coordinates on [-30,30]^2; CRT orders; layer dimensions",
+  "files": [
+    {
+      "path": "professors/MATH/handout_MA105_CDX/自校记录_CDX.md",
+      "sha256": "7a0a0ca51d358fbc77959ee8c08340ad5a8d1a7129b1d507b80abd65d7c582db",
+      "bytes": 2356
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_第01至02讲_CDX.md",
+      "sha256": "77e040f1f11e79b647cca792616fb0963bab1ee001f8fe30156d2ee1a11e68bf",
+      "bytes": 18371
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/术语表.md",
+      "sha256": "7b857d86cc2e12116f7e2c902a24f2ee3c27815473fee8e426b94a1a41a81df0",
+      "bytes": 1531
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/第03至04讲_答案与核验.md",
+      "sha256": "19a36c6b7c3805d4295fed54f7397b9ed068aad5a963c6cc3cd340123e9433af",
+      "bytes": 2870
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/.progress.json",
+      "sha256": "660111c56c74e4380fe2fae31aca993c6e3b2dc2b2aadfb9fa2ef03e1d01b044",
+      "bytes": 1187
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_第03至04讲_CDX.md",
+      "sha256": "6791d6aa08d42009aa041a397830a5ba3a27a99dafebe27a25d486463b304a9a",
+      "bytes": 13628
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/02-对标检查.md",
+      "sha256": "65735c492d848e7550e8b9b234d49ae0a6b0c9ebf25e063e9546e5188ee45593",
+      "bytes": 3271
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/00-写作契约.md",
+      "sha256": "9d3d5758d7195a53ec055d30e4941ba699ae7612f7a04687c03bf9333c554f1d",
+      "bytes": 1502
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_讲1-2.md",
+      "sha256": "69a3de15acc81e4150869d16a854798c52fea61000c5a2eee231e3358ca8ba51",
+      "bytes": 12468
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/术语表.md",
+      "sha256": "7829550a72f8609d976448dd335f634ef46809168d2a706744dbf293cb35d036",
+      "bytes": 1633
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/答案与自校.md",
+      "sha256": "fdacd8dae4ee7ce0c35df270ba808c3b04395218ef8f5753cb830ac7e4abb006",
+      "bytes": 3021
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/.progress.json",
+      "sha256": "b6ce6d16cb58bc64200265397c7b1ecc1482807511432905c2fb66f59f437fe3",
+      "bytes": 493
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_讲3-4.md",
+      "sha256": "862846118facc8b6a3e90ba751b09c54a735d32df18507adc86ca6c25f6acaa1",
+      "bytes": 12552
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/02-对标检查.md",
+      "sha256": "d0ad49dfe61ac813539885bcb253c1e6a37863afe72cc5ad5b1d16c23a391a27",
+      "bytes": 1992
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/讲3-4_答案与自校.md",
+      "sha256": "c699aaa6c48ecc40bde0a9a40d27dc674e396d26a8e2f2c7d6ede68b23d10cf8",
+      "bytes": 4333
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/07-第03讲.md",
+      "sha256": "379bd68b13860a9c0b2ca833bf0bdb1336c613bebc122699d73416d10ea80958",
+      "bytes": 7892
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/06-自校与交接.md",
+      "sha256": "15b12f9798d9c484e024d09eed82d70d9b8526f0079dcd305a3d1a8be9e93f18",
+      "bytes": 2685
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/术语表.md",
+      "sha256": "0f76a3a01bca8047322ee79fbe38a0cdf379cf9838850457dc5aeb2bbcb6ac8c",
+      "bytes": 1328
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/01-二十讲计划参考.md",
+      "sha256": "7b8ea882bdf41971c051f3cab4fd3ecfc32aaa2c8f9244b63667ffc53551e630",
+      "bytes": 9190
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/08-第04讲.md",
+      "sha256": "48156cb7419fd3d7386cfb42b1c761af3831a05f503602d0612f186122fb68e2",
+      "bytes": 9161
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/04-第02讲.md",
+      "sha256": "d6fb435d4456981dd2bd6d7080526783e7ab70ee22b993caf0e3e34c1196f9cf",
+      "bytes": 9937
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/.progress.json",
+      "sha256": "d8dae050e4d9e8a347eab71673d4eb38a70e710522a5f91bc0a1cdc80f737a53",
+      "bytes": 598
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/03-第01讲.md",
+      "sha256": "03a16e065a71a0295f48f43a907fadbc9093b1004f2020ae7595a6471809ff1f",
+      "bytes": 7325
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/05-答案与核验.md",
+      "sha256": "b65b1f39b9aa8510344cfd87958650fdb19bf1bee6dfca56442a9e510fc7b63b",
+      "bytes": 2461
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/02-对标检查.md",
+      "sha256": "8ae3a4c0a60a94c7cde6e2f5d4a8b481dabcd5b864752b32e4be9ca8cbe360f6",
+      "bytes": 1258
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/09-第03至04讲答案与核验.md",
+      "sha256": "2acbeb5bd9e061818c4b2c282de8a71e617251350b5d29dda18192eb157a5ebe",
+      "bytes": 3745
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/讲02-测度分布与密度.md",
+      "sha256": "fbe71dac949c11af650f50ed80d3cfd5acf03a502966e07fef40384cb77cf2f4",
+      "bytes": 10398
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/术语表.md",
+      "sha256": "e77532ef1767a7c0bd500b56c2123771b2c6b1e023c0ad8175cfb43909174d14",
+      "bytes": 1580
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/00-执行说明与全计划.md",
+      "sha256": "8ff070e563c2533d0cce6b5b14ee0666604d33a22c74bec32de42717c50d8fab",
+      "bytes": 1995
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/.progress.json",
+      "sha256": "e8421a859fed09ace4331fce178be5a8a987e4112ef5dc1867496557c71ed3aa",
+      "bytes": 899
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/自校记录.md",
+      "sha256": "8a48182dca38f9dbe66174c0409871ac09cf8ef93160293e2231739b18c33fcb",
+      "bytes": 3606
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/讲01-概率空间再访.md",
+      "sha256": "6fa7f971b6dbd1e330d2519d94708fe5faf7d11a045edf7e9cca0aecee1e26b5",
+      "bytes": 6541
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/答案与核验.md",
+      "sha256": "652472f93261888c92fd33953afe7ad9d9aae060ccd8ee050cfd474aeea6bf97",
+      "bytes": 4116
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/附录A-积分与RN证明工具.md",
+      "sha256": "65749a69032ed42ffca4b9f3ce3f13b70ee675c510f487a4c7d3cb8f2eb4f244",
+      "bytes": 9278
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/02-对标检查.md",
+      "sha256": "742ed6c781756c8c3077f13792613cdb05036ae135ea80e7da415eab10818c01",
+      "bytes": 1457
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/附录B-Stieltjes构造与预测度核验.md",
+      "sha256": "711277f336f47242d010b0caaaa3a13cb6f5bafb5f4275c18afec8faba84e923",
+      "bytes": 6267
+    }
+  ]
+}

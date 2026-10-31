@@ -1,0 +1,49 @@
+{
+  "status": "PASS_author_files_only",
+  "books": [
+    {
+      "course": "MA105",
+      "path": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_八讲合订作者稿_CDX.md",
+      "sha256": "4d2d598ec4ec3c81a3bfdc79bc566b1e07422b9a885c425d9c078c7088211095",
+      "bytes": 70000,
+      "lines": 922,
+      "chapters": 8,
+      "format_problems": [],
+      "mermaid_count": 8,
+      "local_markdown_links": []
+    },
+    {
+      "course": "MA106",
+      "path": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_12讲合订作者稿.md",
+      "sha256": "5a027295c3943c48c73f5ba2e2d0558e996eda5f712e446aa20fcaf61f9e7590",
+      "bytes": 77636,
+      "lines": 1050,
+      "chapters": 12,
+      "format_problems": [],
+      "mermaid_count": 12,
+      "local_markdown_links": []
+    },
+    {
+      "course": "MA302",
+      "path": "professors/MATH/handout_MA302_CDX/MA302_常微分方程与动力系统_20讲_作者稿.md",
+      "sha256": "673ab5f131f290fccfaca2c36171780fe34d35dbf16f14c749056c6279bc8bba",
+      "bytes": 148223,
+      "lines": 1947,
+      "chapters": 20,
+      "format_problems": [],
+      "mermaid_count": 20,
+      "local_markdown_links": []
+    },
+    {
+      "course": "MA306",
+      "path": "professors/MATH/handout_MA306_CDX/MA306_概率论II_测度论概率_十六讲_作者稿.md",
+      "sha256": "17a948c685860be4e70b06f183cb9b5d8fb53a206c0678f6c6d551d013511d2b",
+      "bytes": 151421,
+      "lines": 1870,
+      "chapters": 16,
+      "format_problems": [],
+      "mermaid_count": 18,
+      "local_markdown_links": []
+    }
+  ]
+}

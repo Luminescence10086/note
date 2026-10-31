@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "checks": [
+    "E5 determinantal divisors",
+    "first diagonal operations",
+    "second diagonal operations",
+    "rectangular minors",
+    "T2 minors",
+    "360 group orders and chain",
+    "72 group orders and chain",
+    "torsion counts",
+    "Jordan kernels",
+    "nilpotent kernels",
+    "format 自校记录_CDX.md",
+    "format MA105_模论与结构定理_第01至02讲_CDX.md",
+    "format MA105_模论与结构定理_八讲合订作者稿_CDX.md",
+    "format 术语表.md",
+    "format 第06至08讲_答案与全课自测.md",
+    "format MA105_第06至08讲_三个应用_CDX.md",
+    "format 第03至04讲_答案与核验.md",
+    "format MA105_第05讲_Smith标准形_CDX.md",
+    "format 第05讲_答案与核验.md",
+    "format MA105_模论与结构定理_第03至04讲_CDX.md",
+    "format 02-对标检查.md",
+    "eight chapter headings"
+  ],
+  "status": "PASS",
+  "bound_sha256": "4d2d598ec4ec3c81a3bfdc79bc566b1e07422b9a885c425d9c078c7088211095",
+  "proof_scope": "Computations verify examples only; general arguments are in prose; independent review pending."
+}

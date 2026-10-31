@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-30",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "G1 kernel",
+      "passed": true,
+      "scope": "all residues modulo 12"
+    },
+    {
+      "name": "G1 image",
+      "passed": true,
+      "scope": "all residues modulo 12"
+    },
+    {
+      "name": "quotient modulus 2",
+      "passed": true,
+      "scope": "integer window: a,b=-10..10; k=-3..3; explicit lift c=-10..10"
+    },
+    {
+      "name": "quotient modulus 3",
+      "passed": true,
+      "scope": "integer window: a,b=-10..10; k=-3..3; explicit lift c=-10..10"
+    },
+    {
+      "name": "polynomial action and kernel",
+      "passed": true,
+      "scope": "75 polynomials, 5625 products over rational exact arithmetic"
+    }
+  ],
+  "boundary": "Finite examples only. General proofs are reviewed in prose; no formal proof verification claimed."
+}

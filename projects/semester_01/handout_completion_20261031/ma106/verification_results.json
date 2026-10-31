@@ -1,0 +1,188 @@
+{
+  "S3": {
+    "order": 6,
+    "class_sizes": [
+      1,
+      2,
+      3
+    ],
+    "degrees": [
+      1,
+      1,
+      2
+    ]
+  },
+  "S4": {
+    "order": 24,
+    "class_sizes": [
+      1,
+      3,
+      6,
+      6,
+      8
+    ],
+    "degrees": [
+      1,
+      1,
+      3,
+      3,
+      2
+    ]
+  },
+  "A4": {
+    "order": 12,
+    "class_sizes": [
+      1,
+      3,
+      4,
+      4
+    ],
+    "degrees": [
+      1,
+      1,
+      1,
+      3
+    ]
+  },
+  "D4": {
+    "order": 8,
+    "class_sizes": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "degrees": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  "Q8": {
+    "order": 8,
+    "class_sizes": [
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "degrees": [
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  "decompositions": {
+    "S3 tensor": [
+      1,
+      1,
+      1
+    ],
+    "S3 sym2": [
+      1,
+      0,
+      1
+    ],
+    "S3 wedge2": [
+      0,
+      1,
+      0
+    ],
+    "A4 tensor": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "A4 sym2": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "A4 wedge2": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "D4 tensor": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "D4 sym2": [
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "D4 wedge2": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Q8 tensor": [
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Q8 sym2": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "Q8 wedge2": [
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "ind C2 trivial": [
+      1,
+      0,
+      1
+    ],
+    "ind C2 sign": [
+      0,
+      1,
+      1
+    ],
+    "ind C3 trivial": [
+      1,
+      1,
+      0
+    ],
+    "ind C3 nontrivial": [
+      0,
+      0,
+      1
+    ]
+  },
+  "fourier": {
+    "group": "S3",
+    "function": "f(g_i)=i^2-2i+(-1)^i sqrt(-1), lexicographic permutations",
+    "normalization": "1/6; inverse rho in transform",
+    "convolution_order": "hat(f*h)=hat(h)hat(f)",
+    "warning": "Lecture only asserts scalar abelian version; this is an extra nonabelian boundary check."
+  },
+  "checks": 816,
+  "status": "PASS",
+  "scope": "S4 complete table independently constructed here; lecture only uses S4 permutation and standard rows."
+}

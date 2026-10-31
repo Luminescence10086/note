@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-30",
+  "status": "PASS",
+  "courses": {
+    "MA105": 8,
+    "MA106": 12,
+    "MA302": 20,
+    "MA306": 16
+  },
+  "chapters_drafted": 8,
+  "chapters_content_complete": 7,
+  "chapters_partial": [
+    "MA306:2"
+  ],
+  "future_chapters_unwritten": 48,
+  "checks": [
+    "all four progress lists agree with files",
+    "UTF-8 without BOM",
+    "LF only",
+    "no double dollar delimiters",
+    "math delimiters paired per line",
+    "valid JSON"
+  ],
+  "files": [
+    {
+      "path": "professors/MATH/handout_MA105_CDX/.progress.json",
+      "bytes": 932,
+      "lines": 20,
+      "sha256": "44b1f59dd6447fae5bae65450fc7e4e827843a5db6e11de26725c982f97b45ca"
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/02-对标检查.md",
+      "bytes": 3271,
+      "lines": 36,
+      "sha256": "65735c492d848e7550e8b9b234d49ae0a6b0c9ebf25e063e9546e5188ee45593"
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_第01至02讲_CDX.md",
+      "bytes": 18371,
+      "lines": 249,
+      "sha256": "77e040f1f11e79b647cca792616fb0963bab1ee001f8fe30156d2ee1a11e68bf"
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/术语表.md",
+      "bytes": 1102,
+      "lines": 19,
+      "sha256": "0e06f823170af83612cc4faf260eb23cb1106d8bda7e61fc050aaa8492672619"
+    },
+    {
+      "path": "professors/MATH/handout_MA105_CDX/自校记录_CDX.md",
+      "bytes": 2356,
+      "lines": 30,
+      "sha256": "7a0a0ca51d358fbc77959ee8c08340ad5a8d1a7129b1d507b80abd65d7c582db"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/.progress.json",
+      "bytes": 379,
+      "lines": 1,
+      "sha256": "a92d9e7459540e06c406361b7e05f4ebefeb2e0c66865ca380977316a0b2d612"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/00-写作契约.md",
+      "bytes": 1221,
+      "lines": 20,
+      "sha256": "028703609be5d62f4df73f0dbdf7a5a96137e14250f585e5f3e04f1391c0ee77"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/02-对标检查.md",
+      "bytes": 1992,
+      "lines": 15,
+      "sha256": "d0ad49dfe61ac813539885bcb253c1e6a37863afe72cc5ad5b1d16c23a391a27"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_讲1-2.md",
+      "bytes": 12468,
+      "lines": 166,
+      "sha256": "69a3de15acc81e4150869d16a854798c52fea61000c5a2eee231e3358ca8ba51"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/术语表.md",
+      "bytes": 978,
+      "lines": 18,
+      "sha256": "daa09fb62ccfb93d9d8e40c1ae6f12285bd3bb217b53dbbb158e82597beb9cbb"
+    },
+    {
+      "path": "professors/MATH/handout_MA106_CDX/答案与自校.md",
+      "bytes": 3021,
+      "lines": 20,
+      "sha256": "fdacd8dae4ee7ce0c35df270ba808c3b04395218ef8f5753cb830ac7e4abb006"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/.progress.json",
+      "bytes": 585,
+      "lines": 36,
+      "sha256": "7de067b00133b75506eff5cecb28cee716eb7238b163cdb2edcec04c33a7319f"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/01-二十讲计划参考.md",
+      "bytes": 9190,
+      "lines": 127,
+      "sha256": "7b8ea882bdf41971c051f3cab4fd3ecfc32aaa2c8f9244b63667ffc53551e630"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/02-对标检查.md",
+      "bytes": 1258,
+      "lines": 13,
+      "sha256": "8ae3a4c0a60a94c7cde6e2f5d4a8b481dabcd5b864752b32e4be9ca8cbe360f6"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/03-第01讲.md",
+      "bytes": 7325,
+      "lines": 101,
+      "sha256": "03a16e065a71a0295f48f43a907fadbc9093b1004f2020ae7595a6471809ff1f"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/04-第02讲.md",
+      "bytes": 9937,
+      "lines": 108,
+      "sha256": "d6fb435d4456981dd2bd6d7080526783e7ab70ee22b993caf0e3e34c1196f9cf"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/05-答案与核验.md",
+      "bytes": 2461,
+      "lines": 35,
+      "sha256": "b65b1f39b9aa8510344cfd87958650fdb19bf1bee6dfca56442a9e510fc7b63b"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/06-自校与交接.md",
+      "bytes": 1727,
+      "lines": 13,
+      "sha256": "f4fbbb2be8436a0bc6550c0a75a98901d7037fc638238981f818bac3c8ac4793"
+    },
+    {
+      "path": "professors/MATH/handout_MA302_CDX/术语表.md",
+      "bytes": 702,
+      "lines": 7,
+      "sha256": "d25b6b799ceeef0575f04a529a7dade576902bbe8ea574be5d85a257ea7f1de9"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/.progress.json",
+      "bytes": 594,
+      "lines": 1,
+      "sha256": "e4ad91df5d4d8c1d90f05de3b691a809e536549f784d083e523ada21d23a6d80"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/00-执行说明与全计划.md",
+      "bytes": 1667,
+      "lines": 28,
+      "sha256": "d26d04b9ad66e1ce82c0f14c5b275e39573aad485c7c9ccb61621844ff58ae5e"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/02-对标检查.md",
+      "bytes": 1195,
+      "lines": 15,
+      "sha256": "0010561dfbf5f403ee254eb922a7e2c5b7f755154265c18a949e0c3e9bbe459e"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/术语表.md",
+      "bytes": 912,
+      "lines": 16,
+      "sha256": "dd3daedc5f631461df3ef2b32901b272e82535a7463dee77273471ffbf9f5360"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/答案与核验.md",
+      "bytes": 1484,
+      "lines": 15,
+      "sha256": "119b51beae3e1c6d943c7efb229d2ee7d1b9a1ef2713c0ef81866ddfa8a270ce"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/自校记录.md",
+      "bytes": 1503,
+      "lines": 13,
+      "sha256": "88b2ddd5c8beb61e371b3f3cd8d02ab7a52c8e0c9ffa75f90dff9a0d889bc5e7"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/讲01-概率空间再访.md",
+      "bytes": 6541,
+      "lines": 79,
+      "sha256": "6fa7f971b6dbd1e330d2519d94708fe5faf7d11a045edf7e9cca0aecee1e26b5"
+    },
+    {
+      "path": "professors/MATH/handout_MA306_CDX/讲02-测度分布与密度.md",
+      "bytes": 9876,
+      "lines": 100,
+      "sha256": "86078ab45af56ab901ea69562e3ec634d50b0a6117419a026026e30d3fd794e8"
+    }
+  ],
+  "limit": "Format and state checks plus documented prose review; no DSH approval or student completion."
+}
