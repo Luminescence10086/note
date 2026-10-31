@@ -1,0 +1,38 @@
+{
+  "MA105": {
+    "course": "MA105",
+    "chapters": 8,
+    "date": "2026-10-31",
+    "source": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_八讲合订作者稿_CDX.md",
+    "source_sha256": "4d2d598ec4ec3c81a3bfdc79bc566b1e07422b9a885c425d9c078c7088211095",
+    "source_bytes": 70000,
+    "archive": "lectures/math/approved/MA105_模论与结构定理.md",
+    "archive_sha256": "2ab898fe9663347fb7d0c0a74b2ad2b18c80e0f449b74464d4582da81b29be9f",
+    "archive_bytes": 71562,
+    "reviewed_body_offset_bytes": 1562,
+    "body_byte_equal": true,
+    "reports": [
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_full_DSH.md",
+        "sha256": "d13b8f3361082866befdda297f8c462ec6d7cfb95ece24048e90ccb8de9ce71c"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_round2_DSH.md",
+        "sha256": "44b5d511acc7c040b8cfc58f07ebe6ff3a947b3dcb86fa0f8634733010c2ecab"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_final_DSH.md",
+        "sha256": "f05685b803ae18a52fd9b65727d000831e3239ec8e79489b7c1539ecb5f15da7"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md",
+        "sha256": "13a1c3ba935cd8e450e9b237b9b53e3ff61f278a8fb82e846486877e2fccb181"
+      }
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA105_full_CDX.signal"
+    ],
+    "cross_status": "本课为数学内部结构内容，无须另行综合审稿",
+    "student_mastery_changed": false
+  }
+}

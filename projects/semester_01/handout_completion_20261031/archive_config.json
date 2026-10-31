@@ -1,0 +1,36 @@
+{
+  "MA105": {
+    "title": "模论与结构定理",
+    "chapters": 8,
+    "source": "professors/MATH/handout_MA105_CDX/MA105_模论与结构定理_八讲合订作者稿_CDX.md",
+    "source_sha256": "4d2d598ec4ec3c81a3bfdc79bc566b1e07422b9a885c425d9c078c7088211095",
+    "target": "lectures/math/approved/MA105_模论与结构定理.md",
+    "reports": [
+      "lectures/math/review_reports/review_20261031_MA105_MA106_full_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_round2_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_final_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md"
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA105_full_CDX.signal"
+    ],
+    "cross_status": "本课为数学内部结构内容，无须另行综合审稿"
+  },
+  "MA106": {
+    "title": "有限群表示论",
+    "chapters": 12,
+    "source": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_12讲合订作者稿.md",
+    "source_sha256": "5a027295c3943c48c73f5ba2e2d0558e996eda5f712e446aa20fcaf61f9e7590",
+    "target": "lectures/math/approved/MA106_有限群表示论.md",
+    "reports": [
+      "lectures/math/review_reports/review_20261031_MA105_MA106_full_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_round2_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_final_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md"
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA106_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过"
+  }
+}
