@@ -26,11 +26,52 @@
       "lectures/math/review_reports/review_20261031_MA105_MA106_full_DSH.md",
       "lectures/math/review_reports/review_20261031_MA105_MA106_round2_DSH.md",
       "lectures/math/review_reports/review_20261031_MA105_MA106_final_DSH.md",
-      "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md"
+      "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md",
+      "lectures/math/review_reports/cross_20261031_MA106_corrected_DSH.md",
+      "lectures/math/review_reports/cross_20261031_MA106_errata2_DSH.md"
     ],
     "approval_signals": [
-      "signals/review_approved/math/20261031_MA106_full_CDX.signal"
+      "signals/review_approved/math/20261031_MA106_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA106_full_CDX.signal"
     ],
-    "cross_status": "跨学科综合审稿通过"
+    "cross_status": "跨学科综合审稿通过",
+    "archive_note": "综合审稿非阻断措辞建议 S1/S2 未采纳。审稿报告旁注的错误以追加勘误为准，不涉及本讲义正文。"
+  },
+  "MA306": {
+    "title": "概率论II：测度论概率",
+    "chapters": 16,
+    "source": "professors/MATH/handout_MA306_CDX/MA306_概率论II_测度论概率_十六讲_作者稿.md",
+    "source_sha256": "63876fca0e03b9ba51f76fa03414988cb93315950baf98e4aa94f2e822f883a2",
+    "target": "lectures/math/approved/MA306_概率论II_测度论概率.md",
+    "reports": [
+      "lectures/math/review_reports/review_20261031_MA306_full_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA306_round2_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA306_final_errata_DSH.md",
+      "lectures/math/review_reports/cross_20261031_MA306_DSH.md"
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA306_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA306_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过",
+    "archive_note": "综合审稿非阻断措辞建议 S1 未采纳；数学报告的 R2 建议已由审稿员撤回。U306-4/5/6/7/8 与 R18/A0 的未证边界保留。"
+  },
+  "MA302": {
+    "title": "常微分方程与动力系统",
+    "chapters": 20,
+    "source": "professors/MATH/handout_MA302_CDX/MA302_常微分方程与动力系统_20讲_作者稿.md",
+    "source_sha256": "56def90b7eb92a3303bee0c59fa971039900c46db5ec111f57122cf895cc8400",
+    "target": "lectures/math/approved/MA302_常微分方程与动力系统.md",
+    "reports": [
+      "lectures/math/review_reports/review_20261031_MA302_full_DSH.md",
+      "lectures/math/review_reports/review_20261031_MA302_round2_DSH.md",
+      "lectures/math/review_reports/cross_20261031_MA302_Astra.md"
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA302_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA302_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过（独立 Astra 审稿；原 DSH 限流失败保留）",
+    "archive_note": "数学二审非阻断建议 S10/S11 未采纳；判定及理由见教务长核验说明。数值验证由独立审稿员实际复跑，与原回执一致；仅支持稿中声明的有限实验范围。"
   }
 }

@@ -1,3 +1,23 @@
+# MA306 概率论II：测度论概率｜正式归档说明
+
+2026-10-31；本课共 **16 讲**，属于四门共 56 讲编写批次。数学学科审稿通过；跨学科综合审稿通过。正文、例题与习题答案齐备，原设计中明确只陈述或预告的高级理论仍保留其证明边界。
+
+下方完整保留被审核的作者稿。其中“待独立审稿”“未经独立审稿”“待复审”“尚未批准”等标签及作者自校区的阶段状态是写作历史，当前审核状态以本说明和对应报告为准。学习验收与 PDF 编译未因此完成；不自动改变学生掌握记录或共享未证结论登记。
+
+综合审稿非阻断措辞建议 S1 未采纳；数学报告的 R2 建议已由审稿员撤回。U306-4/5/6/7/8 与 R18/A0 的未证边界保留。
+
+审核记录：
+
+- [审核记录 1](../../../lectures/math/review_reports/review_20261031_MA306_full_DSH.md)
+- [审核记录 2](../../../lectures/math/review_reports/review_20261031_MA306_round2_DSH.md)
+- [审核记录 3](../../../lectures/math/review_reports/review_20261031_MA306_final_errata_DSH.md)
+- [审核记录 4](../../../lectures/math/review_reports/cross_20261031_MA306_DSH.md)
+
+被审作者稿 SHA256（教务长实测）：`63876fca0e03b9ba51f76fa03414988cb93315950baf98e4aa94f2e822f883a2`；字节数：154513。归档文件在其前面增加本说明，正文逐字节不变。完整文件的独立 SHA256、字节数和正文起始偏移记录在[归档核验清单](../../../projects/semester_01/handout_completion_20261031/archive_manifest.json)；完整文件哈希置于外部清单，避免自引用。
+
+---
+
+<!-- REVIEWED_AUTHOR_BYTES_BEGIN -->
 ---
 title: MA306 概率论II：测度论概率 十六讲作者稿
 author: Prof-Math-CDX

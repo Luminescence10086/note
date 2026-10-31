@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-31",
+  "course": "MA302",
+  "worker": "cross-review-four-handouts",
+  "status": "failed",
+  "failure_stage": "Read signal and math review only; no completed cross report",
+  "reason": {
+    "code": "RATE_LIMIT",
+    "message": "429: every account is rate-limited for model deepseek-v4.1-flash (1/2 cooling, tried 0)"
+  },
+  "last_event_seq": 295,
+  "replacement_agent": "/root/cross_ma302_final",
+  "replacement_model": "gpt-6-astra",
+  "replacement_status": "completed_consistent",
+  "not_approval": true,
+  "replacement_report": "lectures/math/review_reports/cross_20261031_MA302_Astra.md",
+  "replacement_report_sha256": "0e3b093ebcb34f679d7ea41a0ef9bfce914523dd6fbdcfdd181971e3525af84f"
+}

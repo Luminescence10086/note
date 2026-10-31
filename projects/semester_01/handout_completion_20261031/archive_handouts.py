@@ -51,11 +51,13 @@ def main():
 
 下方完整保留被审核的作者稿。其中“待独立审稿”“未经独立审稿”“待复审”“尚未批准”等标签及作者自校区的阶段状态是写作历史，当前审核状态以本说明和对应报告为准。学习验收与 PDF 编译未因此完成；不自动改变学生掌握记录或共享未证结论登记。
 
+{c.get('archive_note', '')}
+
 审核记录：
 
 {report_links}
 
-被审作者稿 SHA256：`{c['source_sha256']}`；字节数：{len(body)}。归档文件在其前面增加本说明，正文逐字节不变。完整文件的独立 SHA256、字节数和正文起始偏移记录在[归档核验清单]({link('projects/semester_01/handout_completion_20261031/archive_manifest.json')})；完整文件哈希置于外部清单，避免自引用。
+被审作者稿 SHA256（教务长实测）：`{c['source_sha256']}`；字节数：{len(body)}。归档文件在其前面增加本说明，正文逐字节不变。完整文件的独立 SHA256、字节数和正文起始偏移记录在[归档核验清单]({link('projects/semester_01/handout_completion_20261031/archive_manifest.json')})；完整文件哈希置于外部清单，避免自引用。
 
 ---
 
@@ -83,6 +85,22 @@ def main():
                         archive_sha256=sha(readback), review_reports=c['reports'],
                         completion_requirements_pending=[], updated='2026-10-31')
         dump(progress_path, progress)
+        designs = [p for p in (ROOT / 'professors/MATH').glob(f'handout_{course}_*/.progress.json')
+                   if not p.parent.name.endswith('_CDX')]
+        assert len(designs) == 1, (course, 'ambiguous original design')
+        design_path = designs[0]
+        design = json.loads(design_path.read_text(encoding='utf-8'))
+        if 'historical_planning_state' not in design:
+            design['historical_planning_state'] = {k: design.get(k) for k in
+                ['phase', 'chapters_written', 'chapters_pending', 'notes']}
+        design.update(phase=5, chapters_written=list(range(1, c['chapters'] + 1)),
+                      chapters_pending=[], review_status='approved_and_archived',
+                      archived_file=c['target'], archive_sha256=sha(readback),
+                      author_workspace=source.parent.relative_to(ROOT).as_posix(),
+                      authorization='2026-10-30/31 用户确认按既有设计写完四门；旧Gate确认历史不追改',
+                      notes='全课正文与答案已写齐、审核归档；旧大纲状态保存在historical_planning_state，学生掌握未验收。',
+                      updated='2026-10-31')
+        dump(design_path, design)
         print(course, c['chapters'], sha(readback), 'body unchanged')
     dump(MANIFEST, records)
     for course, record in records.items():

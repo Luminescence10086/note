@@ -7,9 +7,9 @@
     "source_sha256": "4d2d598ec4ec3c81a3bfdc79bc566b1e07422b9a885c425d9c078c7088211095",
     "source_bytes": 70000,
     "archive": "lectures/math/approved/MA105_模论与结构定理.md",
-    "archive_sha256": "2ab898fe9663347fb7d0c0a74b2ad2b18c80e0f449b74464d4582da81b29be9f",
-    "archive_bytes": 71562,
-    "reviewed_body_offset_bytes": 1562,
+    "archive_sha256": "ff158fa69d5e46ab3454e8e62e0b887bb62e2484fa49a940a5c4dca12415e790",
+    "archive_bytes": 71585,
+    "reviewed_body_offset_bytes": 1585,
     "body_byte_equal": true,
     "reports": [
       {
@@ -33,6 +33,121 @@
       "signals/review_approved/math/20261031_MA105_full_CDX.signal"
     ],
     "cross_status": "本课为数学内部结构内容，无须另行综合审稿",
+    "student_mastery_changed": false
+  },
+  "MA106": {
+    "course": "MA106",
+    "chapters": 12,
+    "date": "2026-10-31",
+    "source": "professors/MATH/handout_MA106_CDX/MA106_有限群表示论_12讲合订作者稿.md",
+    "source_sha256": "5a027295c3943c48c73f5ba2e2d0558e996eda5f712e446aa20fcaf61f9e7590",
+    "source_bytes": 77636,
+    "archive": "lectures/math/approved/MA106_有限群表示论.md",
+    "archive_sha256": "b743196e3daaa471197e0ee38ded717f2795cae0c1826661580a2b310ba1f21c",
+    "archive_bytes": 79506,
+    "reviewed_body_offset_bytes": 1870,
+    "body_byte_equal": true,
+    "reports": [
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_full_DSH.md",
+        "sha256": "d13b8f3361082866befdda297f8c462ec6d7cfb95ece24048e90ccb8de9ce71c"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_round2_DSH.md",
+        "sha256": "44b5d511acc7c040b8cfc58f07ebe6ff3a947b3dcb86fa0f8634733010c2ecab"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_final_DSH.md",
+        "sha256": "f05685b803ae18a52fd9b65727d000831e3239ec8e79489b7c1539ecb5f15da7"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA105_MA106_archive_metadata_DSH.md",
+        "sha256": "13a1c3ba935cd8e450e9b237b9b53e3ff61f278a8fb82e846486877e2fccb181"
+      },
+      {
+        "path": "lectures/math/review_reports/cross_20261031_MA106_corrected_DSH.md",
+        "sha256": "6a1ee5851cd982b73014fc921635b90f9eab94288ac23a22ff6d1301eba60812"
+      },
+      {
+        "path": "lectures/math/review_reports/cross_20261031_MA106_errata2_DSH.md",
+        "sha256": "85b6364de931a5e086e6bd1b25df7e8760e4787cf04e3091ee93b2f7c0d27133"
+      }
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA106_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA106_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过",
+    "student_mastery_changed": false
+  },
+  "MA306": {
+    "course": "MA306",
+    "chapters": 16,
+    "date": "2026-10-31",
+    "source": "professors/MATH/handout_MA306_CDX/MA306_概率论II_测度论概率_十六讲_作者稿.md",
+    "source_sha256": "63876fca0e03b9ba51f76fa03414988cb93315950baf98e4aa94f2e822f883a2",
+    "source_bytes": 154513,
+    "archive": "lectures/math/approved/MA306_概率论II_测度论概率.md",
+    "archive_sha256": "79468d29e8d72c0323a2140eaf94505c888f524ca6b1656d31ef10b595717a1a",
+    "archive_bytes": 156188,
+    "reviewed_body_offset_bytes": 1675,
+    "body_byte_equal": true,
+    "reports": [
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA306_full_DSH.md",
+        "sha256": "b8a48c60f4e0bf36022a319036f03c08df262f6ae610555b558ca16f57367894"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA306_round2_DSH.md",
+        "sha256": "7b8fa4ced8b08882639b5099079298e38a85008b014e3479d95a5e077c391d24"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA306_final_errata_DSH.md",
+        "sha256": "de237f5eabc5f1e6334ba64916751b2d0c1f4b29f596ffede65144e4b66517ca"
+      },
+      {
+        "path": "lectures/math/review_reports/cross_20261031_MA306_DSH.md",
+        "sha256": "d2286d6bee648e80e04946d3cbd6b7126c4a864f505ff8c8f4e2ce534b0bcdc6"
+      }
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA306_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA306_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过",
+    "student_mastery_changed": false
+  },
+  "MA302": {
+    "course": "MA302",
+    "chapters": 20,
+    "date": "2026-10-31",
+    "source": "professors/MATH/handout_MA302_CDX/MA302_常微分方程与动力系统_20讲_作者稿.md",
+    "source_sha256": "56def90b7eb92a3303bee0c59fa971039900c46db5ec111f57122cf895cc8400",
+    "source_bytes": 154427,
+    "archive": "lectures/math/approved/MA302_常微分方程与动力系统.md",
+    "archive_sha256": "e430795632ace076cbc60bf2d97558fbd5e7d5a645f23a0e243afe3d419b148b",
+    "archive_bytes": 156112,
+    "reviewed_body_offset_bytes": 1685,
+    "body_byte_equal": true,
+    "reports": [
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA302_full_DSH.md",
+        "sha256": "bad27a42049cc6b135eff68a90c02b5114cba5169f5d6f385294f5c3e418db6b"
+      },
+      {
+        "path": "lectures/math/review_reports/review_20261031_MA302_round2_DSH.md",
+        "sha256": "792547e1a459ca50b682e4dce0414eefb84b5ac1794089623c1a995c2023ab98"
+      },
+      {
+        "path": "lectures/math/review_reports/cross_20261031_MA302_Astra.md",
+        "sha256": "0e3b093ebcb34f679d7ea41a0ef9bfce914523dd6fbdcfdd181971e3525af84f"
+      }
+    ],
+    "approval_signals": [
+      "signals/review_approved/math/20261031_MA302_full_CDX.signal",
+      "signals/review_approved/cross/20261031_MA302_full_CDX.signal"
+    ],
+    "cross_status": "跨学科综合审稿通过（独立 Astra 审稿；原 DSH 限流失败保留）",
     "student_mastery_changed": false
   }
 }
